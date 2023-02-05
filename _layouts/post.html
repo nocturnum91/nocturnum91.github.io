@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article>
+	<div class="post">
+		<div class="post-header">
+			<strong>{{ page.title }}</strong> | {{ page.date | date: "%F" }}
+		</div>
+	<br>
+	{{ content }}
+		<div class="post-footer">
+			<div class="tags">
+				Tags: {% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}
+			</div>
+		</footer>
+	</div>
+
+</article>

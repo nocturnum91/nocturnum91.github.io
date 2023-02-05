@@ -1,0 +1,33 @@
+/**
+ * Dark theme variables
+ */
+
+:root {
+  --base-color: #DBDBDB;
+  --border: dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: rgba(219, 219, 219, 0.99);
+  --selection-text: #000;
+  --background-color: #000;
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+  --code-color-1: #aaaaaa;
+  --code-color-2: #ffffcc;
+  --code-color-3: #F00000;
+  --code-color-4: #F0A0A0;
+  --code-color-5: #BC8F8F;
+  --code-color-6: #BDB76B;
+  --code-color-7: #e4e477;
+  --code-color-8: #000080;
+  --code-color-9: #5F9EA0;
+  --code-color-10: #BDB76B;
+  --code-color-11: #555555;
+  --code-color-12: #800080;
+  --code-color-13: #BC8F8F;
+  --code-color-14: #4682B4;
+  --code-color-15: #4682B4;
+  --code-color-16: #8bacad;
+  --code-color-17: #800000;
+  --code-color-18: #bbbbbb;
+  --code-color-19: #DBDBDB;
+}
