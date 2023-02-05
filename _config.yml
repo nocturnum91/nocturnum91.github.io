@@ -1,4 +1,4 @@
-title: 'nocturnum91.github.io'
+title: "Nocturnum's Devblog"
 author:
     name: "Nocturnum91"
 description: "Nocturnum's github blog"
@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://nocturnum91.github.io"
 
 encoding: "utf-8"
+locale: "ko"
 timezone: Asia/Seoul
 #google_analytics: UA-NNNNNNNN-N
 
