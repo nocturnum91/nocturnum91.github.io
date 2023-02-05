@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Syntax highlighting Example"
+title:  "Syntax highlighting 색상 커스텀"
 date:   2023-02-05
 category: dev
 tags: [jekyll]

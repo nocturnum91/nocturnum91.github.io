@@ -13,13 +13,14 @@ layout: default
 				Tags: {% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}
 			</div>
 		</div>
-	</div>
-<script src="https://utteranc.es/client.js"
+		<script src="https://utteranc.es/client.js"
         repo="nocturnum91/blog-comments"
         issue-term="pathname"
         label="comments"
         theme="github-dark"
         crossorigin="anonymous"
         async>
-</script>
+		</script>
+	</div>
+
 </article>
